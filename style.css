@@ -1,0 +1,23 @@
+html {
+    font-family: monospace;
+    margin: auto;
+    padding: 18px 20px 30px 30px;
+}
+
+@media (max-width: 800px) {
+    .promo {
+        width: 500vw;
+    }
+}
+
+@media (min-width: 800px) {
+    .body {
+        float: left;
+        width: 50%;
+    }
+
+    .promo {
+        float: right;
+        width: 50%;
+    }
+}
